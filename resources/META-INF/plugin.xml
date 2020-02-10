@@ -1,0 +1,35 @@
+<idea-plugin>
+  <id>com.frankmoley.recorder-theme</id>
+  <name>Recorder Theme</name>
+  <version>1.0</version>
+  <vendor email="frankmoley@gmail.com" url="http://www.frankmoley.com">Frank Moley</vendor>
+
+  <description><![CDATA[
+      A base theme for video recording that enables high compression.<br>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <b>Change Notes:</b><br>
+      <ol>
+        <li>02-09-20: Initial Creation
+      </ol>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+      <themeProvider id="edfd507c-4da1-47cf-8296-cb6885b07c5e" path="/Recorder_Theme.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
